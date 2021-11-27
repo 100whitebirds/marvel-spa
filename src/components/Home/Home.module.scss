@@ -1,0 +1,28 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchInput {
+  padding-bottom: 50px;
+  display: flex;
+  .searchIcon {
+    padding: 15px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.comicsContainer {
+  display: grid;
+
+  grid-template-areas:
+  "c c";
+
+  grid-gap: 30px;
+
+  align-items: center;
+  justify-content: center;
+}
